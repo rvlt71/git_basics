@@ -1,0 +1,89 @@
+    1  sudo apt-get install terminator
+    2  terminator
+    3  https://github.com/rvlt71/git_basics.git
+    4  git clone https://github.com/rvlt71/git_basics.git
+    5  sudo apt install git
+    6  git clone https://github.com/rvlt71/git_basics.git
+    7  ls
+    8  mv git_basics Documents
+    9  cd Documents
+   10  ls
+   11  cd git*
+   12  ls -a
+   13  touch
+   14  touch bla
+   15  ls
+   16  touch bla.txt
+   17  ls
+   18  ls -l
+   19  ll
+   20  rm bla
+   21  rm bla.tx
+   22  rm bla.txt
+   23  cd
+   24  cd -
+   25  cd .git
+   26  ls
+   27  cat config
+   28  gedit config
+   29  gedit config &
+   30  gedit config 
+   31  fg
+   32  cd ..
+   33  ls
+   34  git status
+   35  git checkout -b develop
+   36  git status
+   37  git checkout -b add_testfile
+   38  git status
+   39  touch anything
+   40  rm anything
+   41  touch anything.txt
+   42  gedit anything.txt
+   43  git status
+   44  git add anything.txt
+   45  git status
+   46  git commit -m "1st attempt"
+   47  git config --global user.email "darkenergyse@gmail.com"
+   48  git config --global user.name rvlt71
+   49  git commit
+   50  git commit -m 
+   51  git commit -m "1st attempt"
+   52  git push
+   53  git push --set-upstream origin add_testfile
+   54  touch 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
+   55  touch pat.txt
+   56  gedit pat.txt 
+   57  cat pat.txt
+   58  rm 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 
+   59  ls
+   60  git push --set-upstream origin add_testfile
+   61  l
+   62  ls
+   63  git status
+   64  git branches
+   65  git branch
+   66  git checkout develop
+   67  git push
+   68  cat pat
+   69  cat pat.txt 
+   70  git push --set-upstream origin develop
+   71  history
+   72  git status
+   73  git checkout -b
+   74  git checkout -b analysis
+   75  touch analysis.txt
+   76  gedit analysis.txt 
+   77  git status
+   78  git add analysis.txt 
+   79  git status
+   80  git commit -m "1st analysis"
+   81  git push 
+   82  git pull
+   83  git status
+   84  git checkout develop
+   85  ls
+   86  git pull
+   87  ls
+   88  history
+   89  history > commands.txt
